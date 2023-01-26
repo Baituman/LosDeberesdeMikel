@@ -1,0 +1,197 @@
+@use "sass:math"
+
+// DEFINICION DE VARIABLES GENERALES
+//---------------------------------------------------------------------------------------------------------
+
+  // Variable overrides first
+$primary: #900
+$enable-shadows: true
+$prefix: "mo-"
+
+$white: #f5f5f5
+$light:      #08173d
+$dark:       #8fc745
+$primary:    #0180ac
+$secondary:  #c023ad
+$info:       #103a24
+$accent1:    #33458e
+$accent2:    #5a4c8c
+$accent3:    #489a44
+$success:    #009850
+$warning:    #e3c600 
+$danger:     #ef0012
+
+  
+
+$theme-colors: ("light":$light, "dark":$dark, "primary":$primary, "secondary":$secondary, "info":$info, "accent1":$accent1, "accent2":$accent2,"accent3":$accent3, "success":$success, "warning":$warning, "danger":$danger)
+$nav-pills-border-radius: 0.5rem
+$nav-pills-link-active-color: $info
+$nav-pills-link-active-bg: $dark
+
+// Custom Web Fonts
+@import 'https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900'
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+// importing core styling file
+@import '../../assets/fontawesome/css/fontawesome.scss'
+
+// our project needs Solid + Brands
+@import "../../assets/fontawesome/css/solid.scss"
+@import "../../assets/fontawesome/css/brands.scss"
+
+
+// Breakpoints
+
+$bp-xsmall: 0
+$bp-small: 576px
+$bp-medium: 768px
+$bp-large: 992px
+$bp-xlarge: 1200px
+$bp-xxlarge: 1400px
+
+// Media Queries
+$mq-small: "min-width: " + $bp-small
+$mq-medium: "min-width: " + $bp-medium 
+$mq-large:"min-width: " + $bp-large 
+$mq-xlarge: "min-width: " + $bp-xlarge
+$mq-xxlarge: "min-width: " + $bp-xxlarge 
+$mq-retina: (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
+
+// Font-Size
+$base-font-size: 1em
+
+// Line-Height
+$base-line-height: 1.5
+$header-line-height: 1.25
+
+// Base font-size
+$base-spacing: $base-font-size
+
+// Transition Settings
+$base-transition-duration: .3s
+$base-transition-timing: ease-in-out
+
+
+// Then import Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap"
+
+// @mixin flexbox() 
+//   display: -webkit-box
+//   display: -moz-box
+//   display: -ms-flexbox
+//   display: -webkit-flex
+//   display: flex
+
+
+// @mixin flex($values)
+//   -webkit-box-flex: $values
+//   -moz-box-flex: $values
+//   -webkit-flex: $values
+//   -ms-flex: $values
+//   flex: $values
+
+
+// @mixin order($val) 
+//   -webkit-box-ordinal-group: $val
+//   -moz-box-ordinal-group: $val
+//   -ms-flex-order: $val
+//   -webkit-order: $val
+//   order: $val
+
+  
+// DEFINICION DE ETIQUETAS
+//---------------------------------------------------------------------------------------------------------
+
+*,
+*:before,
+*:after 
+  box-sizing: border-box
+
+
+body 
+  background-color: $white
+  font-family: 'Poppins'
+  font-weight: 300
+  font-size: $base-font-size
+  line-height: $base-line-height
+  overflow-x: hidden
+  width: 100%
+
+.divider 
+  position: relative
+  margin: 0 4% $base-spacing*3
+  border-bottom: 1px solid $dark
+
+  @media ($mq-medium)
+    margin: 0 8% $base-spacing*3
+
+  @media ($mq-large)
+    margin: 0 12% $base-spacing*3
+
+  @media ($mq-xlarge) 
+    margin: 0 18% $base-spacing*3
+  
+
+  svg 
+    position: absolute
+    z-index: 2
+    left: 50%
+    width: $base-spacing*2
+    height: $base-spacing*2
+    margin-left: -($base-spacing)
+    margin-top: -($base-spacing)
+    fill: inherit 
+  
+
+  &:before 
+      content: ""
+      position: absolute
+      z-index: 1
+      top: -($base-spacing*1.5)
+      right: 0
+      bottom: 0
+      left: 50%
+      margin-left: -($base-spacing*1.5)
+      width: $base-spacing*3
+      height: $base-spacing*3
+      background-color: $white
+    
+/**, 
+ * Global
+ */
+
+.container-md
+  display: flex
+  flex-direction: column
+  justify-content: center
+  margin: 0 4%
+
+  @media ($mq-medium) 
+    margin: 0 8%
+
+  @media ($mq-large)
+    margin: 0 12%
+
+  @media ($mq-xlarge)
+    margin: 0 18%
+
+
+.twocols
+  display: flex
+  @media ($mq-small) 
+    flex-direction: row
+  flex-direction: column
+
+  div
+    margin-left: 15px
+    padding-left: 20px
+    
+
+.g-4 
+  background-color: $dark
+  textarea
+    background-color: $white
+  input
+    background-color: $white
+
+  

@@ -1,0 +1,38 @@
+@use 'base' as *
+
+.custom-logo-link 
+  height: 0
+  padding-bottom: 100%
+  background-image: url(../../assets/logosmall.png)
+  background-position: center center
+  background-size: cover
+  visibility: visible
+  min-width: 100px
+  @media ($mq-large)
+    background-image: url(../../assets/logobig.png)
+
+.social-buttons
+  display: inline-block
+
+  @media not ($mq-large)
+    min-width: 8em
+
+  @media ($mq-large)
+    display: block
+    margin-left: 1em
+    margin-top: auto
+
+  ul 
+    display: flex
+    list-style: none
+    padding: 0px
+    justify-content: space-evenly
+    @media not ($mq-large)
+      justify-content: space-between
+
+
+.igicon
+  @include fa-icon-brands($fa-var-instagram)
+  font-size: 1.1em
+  @media not ($mq-large)
+    font-size: 1.5em

@@ -1,0 +1,35 @@
+{
+  "data": {
+    "quality": 50,
+    "formats": [
+      "avif",
+      "webp",
+      "jpeg"
+    ],
+    "breakpoints": [
+    {
+      "name": "sm",
+      "size": "48"
+    },
+    {
+      "name": "md",
+      "size": "65"
+    }
+    ],
+    "images": [
+
+      {
+        "name": "tombrider-18",
+        "title": ""
+      },
+      {
+        "name": "velazquez-9",
+        "title": ""
+      },
+      {
+        "name": "top15-372Agosto",
+        "title": ""
+      }
+    ]
+  }
+}

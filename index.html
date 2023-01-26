@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<!-- SVG Defs -->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mikel Dalmau personal website, portfolio site</title>
+
+    <link rel="icon" href="assets/favicon.png">
+
+    
+    <link rel="stylesheet" href="build/base.css?v=1674745728667" />
+    <link rel="stylesheet" href="build/index.css?v=1674745728667" />
+    <link rel="stylesheet" href="build/navbar.css?v=1674745728667" />
+    <link rel="stylesheet" href="build/footer.css?v=1674745728667" />
+    <link rel="stylesheet" href="build/gallery.css?v=1674745728667" />
+    <script src="build/index.js?v=1674745728667"></script>
+
+    <link
+      href="/assets/fontawesome/css/all.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="/assets/fontawesome/css/v4-shims.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://kit.fontawesome.com/307b32ae60.js" crossorigin="anonymous"></script>
+    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">    </script> 
+    <script> 
+      $(function(){
+        $("#includedContent").load("build/navbarIndex.html"); 
+        // $("#includedContent").load("build/navbarorig.html"); 
+        $("#tabs").load("build/tabs.html"); 
+        $("#footer").load("build/footer.html"); 
+      });
+    </script> 
+
+  </head>
+
+  
+  <body>
+    
+    <header id="includedContent">
+    </header>
+    
+
+      <!-- Divider -->
+      <div class="divider">
+        <svg class="icon" viewBox="0 0 50 50">
+            <use xlink:href="#emblem"></use>
+          </svg>
+      </div>
+    <!-- Divider -->
+       <!-- Divider -->
+       <div class="jumbotron">
+        <h1 class="display-4">Hello,  Green world!</h1>
+        <p class="lead">This is a simple hero unit, Just click the button to happiness.</p>
+        <hr class="my-4">
+        <p>An easy to use search page with ficticious information about weed seeds from Royal Queen seed bank.</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="build/buscador.html" role="button">Have a nice trip</a>
+        </p>
+      </div>
+    <!-- Divider -->
+
+    <footer id="footer" class="footer-md">
+    </footer>
+  </body>
+</html>

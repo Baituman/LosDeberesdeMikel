@@ -1,0 +1,132 @@
+{
+  "data": [
+    {
+      "nombre": "Triple G Auto",
+      "altura": 100,
+      "thc": 32,
+      "tipo": "Indica",
+      "efectos": ["relajante", "lucido"],
+      "foto": "https://www.royalqueenseeds.es/117-3446-home/fruit-spirit.jpg"
+    },
+    {
+      "nombre": "Sour Diesel",
+      "altura": 160,
+      "thc": 32,
+      "tipo": "Sativa",
+      "efectos": ["Colocon", "potente"],
+      "foto": "https://www.royalqueenseeds.es/122-2022-home/white-widow.jpg"
+    },
+    {
+      "nombre": "Cookies Gelato",
+      "altura": 150,
+      "thc": 32,
+      "tipo": "Auto",
+      "efectos": ["relajante", "lucido"],
+      "foto": "https://www.royalqueenseeds.es/117-3446-home/fruit-spirit.jpg"
+    },
+    {
+      "nombre": "Royal Runtz",
+      "altura": 120,
+      "thc": 32,
+      "tipo": "Indica",
+      "efectos": ["relajante", "lucido"],
+      "foto": "https://www.royalqueenseeds.es/116-2028-home/blue-mistic.jpg"
+    },
+    {
+      "nombre": "Watermelon",
+      "altura": 170,
+      "thc": 32,
+      "tipo": "Indica",
+      "efectos": ["relajante", "lucido"],
+      "foto": "https://www.royalqueenseeds.es/149-3131-home/og-kush-.jpg"
+    },
+    {
+      "nombre": "Blue Cheese",
+      "altura": 150,
+      "thc": 32,
+      "tipo": "Auto",
+      "efectos": ["Relajante", "Calmante"],
+      "foto": "https://www.royalqueenseeds.es/116-2028-home/blue-mistic.jpg"
+    },
+    {
+      "nombre": "Somango",
+      "altura": 110,
+      "thc": 32,
+      "tipo": "Sativa",
+      "efectos": ["relajante", "Colocón"],
+      "foto": "https://www.royalqueenseeds.es/132-2030-home/skunk.jpg"
+    },
+    {
+      "nombre": "Lemon Haze",
+      "altura": 130,
+      "thc": 32,
+      "tipo": "Auto",
+      "efectos": ["Potente", "Energizante"],
+      "foto": "https://www.royalqueenseeds.es/149-3131-home/og-kush-.jpg"
+    },
+    {
+      "nombre": "Bubble Gum",
+      "altura": 80,
+      "thc": 32,
+      "tipo": "Sativa",
+      "efectos": ["relajante", "Calmante"],
+      "foto": "https://www.royalqueenseeds.es/182-2038-home/bubblegum-xl.jpg"
+    },
+    {
+      "nombre": "AK 47",
+      "altura": 170,
+      "thc": 32,
+      "tipo": "Indica",
+      "efectos": ["Colocón", "Potente"],
+      "foto": "https://www.royalqueenseeds.es/149-3131-home/og-kush-.jpg"
+    },
+    {
+      "nombre": "Northern Light",
+      "altura": 165,
+      "thc": 32,
+      "tipo": "Auto",
+      "efectos": ["Equilibrado", "lucido"],
+      "foto": "https://www.royalqueenseeds.es/186-2042-home/honey-cream-fast-flowering.jpg"
+    },
+    {
+      "nombre": "Sour Diesel",
+      "altura": 130,
+      "thc": 32,
+      "tipo": "Auto",
+      "efectos": ["Calmante", "Energizante"],
+      "foto": "https://www.royalqueenseeds.es/222-3231-home/somango-xl.jpg"
+    },
+    {
+      "nombre": "Super Skunk",
+      "altura": 160,
+      "thc": 32,
+      "tipo": "Sativa",
+      "efectos": ["relajante", "lucido"],
+      "foto": "https://www.royalqueenseeds.es/219-2045-home/blue-cheese.jpg"
+    },
+    {
+      "nombre": "Quick One",
+      "altura": 110,
+      "thc": 32,
+      "tipo": "Indica",
+      "efectos": ["relajante", "lucido"],
+      "foto": "https://www.royalqueenseeds.es/222-3231-home/somango-xl.jpg"
+    },
+    {
+      "nombre": "O.G. Kush",
+      "altura": 130,
+      "thc": 32,
+      "tipo": "Indica",
+      "efectos": ["relajante", "lucido"],
+      "foto": "https://www.royalqueenseeds.es/221-2048-home/royal-ak.jpg"
+    },
+    {
+      "nombre": "Amnesia Haze",
+      "altura": 110,
+      "thc": 32,
+      "tipo": "Sativa",
+      "efectos": ["Calmante", "Energizante"],
+      "foto": "https://www.royalqueenseeds.es/135-2051-home/mezcla-feminizada.jpg"
+    }
+  ]
+}

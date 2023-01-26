@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Project site</title>
+
+    <link rel="icon" href="../assets/favicon.png" />
+
+    <link rel="stylesheet" href="base.css?v=1674402254700" />
+    <link rel="stylesheet" href="index.css?v=1674402254700" />
+    <link rel="stylesheet" href="navbar.css?v=1674402254700" />
+    <link rel="stylesheet" href="footer.css?v=1674402254700" />
+    <link rel="stylesheet" href="main.css?v=1674402254700" />
+    <link rel="stylesheet" href="slider.css?v=1674402254700" />
+    <link rel="stylesheet" href="card.css?v=1674402254700" />
+    <script src="index.js?v=1674402254700"></script>
+
+    <link
+      href="../assets/fontawesome/css/all.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="../assets/fontawesome/css/v4-shims.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      src="https://kit.fontawesome.com/307b32ae60.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("#includedContent").load("navbar.html");
+        $("#footer").load("footer.html");
+        weed_init();
+      });
+    </script>
+  </head>
+  
+  <header id="includedContent"></header>
+
+  <body>
+
+    <div class="main-container">
+      <!-- --------------------------cabecera----------------------------- -->
+
+      <header class="cabecera">
+        <div class="header-container">
+          <h1>WORLD SEEDS BANK</h1>
+        </div>
+      </header>
+
+      <!-- --------------------------MAIN----------------------------- -->
+
+      <!-- --------------------------SIDEBAR----------------------------- -->
+
+      <div class="sidebar-container">
+        <h2>Choose your fav</h2>
+
+        <div class="slider-container">
+          <!--  <div class="slidecontainer">
+                    <h4>Altura</h4> <span id="sliderAlturaValor"></span>
+                    <input type="range" min="100" max="220" value="170" class="slider" id="sliderAltura" oninput="weed_update('sliderAltura');"> 
+                </div>
+
+                <div class="slidecontainer">
+                    <h4>Altura</h4> <span id="sliderAlturaValor"></span>
+                    <input type="range" min="100" max="220" value="170" class="slider" id="sliderAltura" oninput="weed_update('sliderAltura');"> 
+                </div> -->
+
+          <div class="slidecontainer">
+            <h4>Altura</h4>
+            <span id="sliderAlturaValor"></span>
+            <input
+              type="range"
+              min="60"
+              max="220"
+              value="170"
+              class="slider"
+              id="sliderAltura"
+              oninput="weed_update('sliderAltura');"
+            />
+          </div>
+
+          <div class="slidecontainer">
+            <h4>Thc</h4>
+            <span id="sliderThcValor"></span>
+            <input
+              type="range"
+              min="10"
+              max="150"
+              value="50"
+              class="slider"
+              id="sliderThc"
+              oninput="weed_update('sliderThc');"
+            />
+          </div>
+
+          <div class="slidecontainer">
+            <h4>Tipo</h4>
+            <input
+              type="radio"
+              id="radioTipoSativa"
+              name="radioTipo"
+              onclick="weed_update('Sativa');"
+              checked="checked"
+            />
+            <label for="radioTipoSativa">Sativa</label><br />
+            <input
+              type="radio"
+              id="radioTipoIndica"
+              name="radioTipo"
+              onclick="weed_update('Indica');"
+            />
+            <label for="radioTipoIndica">Indica</label><br />
+            <input
+              type="radio"
+              id="radioTipoAuto"
+              name="radioTipo"
+              onclick="weed_update('Auto');"
+            />
+            <label for="radioTipoAuto">Auto</label><br />
+          </div>
+        </div>
+      </div>
+      <!-- --------------------------TARJETAS----------------------------- -->
+      <div class="main-wrapper">
+        <div id="cardArea" class="container"></div>
+      </div>
+      <!-- --------------------------FOOTER----------------------------- -->
+
+    </div>
+</body>
+<footer id="footer"></footer>
+</html>
